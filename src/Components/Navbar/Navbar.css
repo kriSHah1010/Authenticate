@@ -1,0 +1,13 @@
+.navbar-maincontainer {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: grey;
+}
+
+.active {
+    color: green !important;
+}
