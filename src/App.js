@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-
 import HomePage from './Pages/HomePage/HomePage'
 import Navbar from './Components/Navbar/Navbar'
 import ContactPage from './Pages/ContactPage/ContactPage'

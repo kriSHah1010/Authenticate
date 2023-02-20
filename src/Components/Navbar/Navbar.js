@@ -7,7 +7,7 @@ const Navbar = (props) => {
     console.log(props.isLogin)
     return (
         <div className='navbar-maincontainer'>
-            <div className='navbar-leftcontainer'>{props.userName == undefined ? "Name" : props.userName}</div>
+            <div className='navbar-leftcontainer'>{props.userName === undefined ? "Name" : props.userName}</div>
             <div className='navbar-rightcontainer'>
                 {props.isLogin &&
                     <>
